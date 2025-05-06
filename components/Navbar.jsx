@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import { IoNotifications } from "react-icons/io5";
+import { HiDotsHorizontal } from "react-icons/hi";
 
 const Navbar = () => {
   const [subnotification, setsubnotification] = useState(false);
@@ -26,8 +27,9 @@ const Navbar = () => {
                 </ul>
               </div>}
             </button>
-            <button className="bg-[#11445f] hover:bg-[#06354f] text-sm transition-all duration-500 cursor-pointer px-4 py-2 rounded-lg">Log in</button>
-            <button className="bg-[#11445f] hover:bg-[#06354f] text-sm transition-all duration-500 cursor-pointer px-4 py-2 rounded-lg">Get App</button>
+            <button className="bg-[#11445f] hover:bg-[#06354f] max-sm:hidden text-sm transition-all duration-500 cursor-pointer px-4 py-2 rounded-lg">Log in</button>
+            <button className="bg-[#11445f] hover:bg-[#06354f] max-sm:hidden text-sm transition-all duration-500 cursor-pointer px-4 py-2 rounded-lg">Get App</button>
+            <button className="block sm:hidden"><HiDotsHorizontal /></button>
           </div>
         </div>
       </nav>

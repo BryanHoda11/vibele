@@ -22,7 +22,7 @@ import { IoIosThumbsUp } from "react-icons/io";
 
 const Sidebar = () => {
   return (
-    <div className='sidebar custom-scrollbar sticky top-0 hidden lg:flex flex-col overflow-y-scroll border-r-[1px] border-[#ffffff33]'>
+    <div className='sidebar custom-scrollbar sticky top-0 hidden xl:flex flex-col overflow-y-scroll border-r-[1px] border-[#ffffff33]'>
       <ul className="flex flex-col gap-2 mx-5 my-3">
         <li className="flex items-center px-3 py-2 rounded-lg gap-2 cursor-pointer hover:bg-[#24353d]"><GoHomeFill /> Home</li>
         <li className="flex items-center px-3 py-2 rounded-lg gap-2 cursor-pointer hover:bg-[#24353d]"><BiTrendingUp /> Popular</li>

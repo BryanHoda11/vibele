@@ -8,7 +8,7 @@ const Comments = () => {
     return (
         <>
             <div className="comment-wrapper flex flex-col gap-6">
-                <div className="comment w-[85%] px-7">
+                <div className="comment w-full sm:w-[85%] px-3 sm:px-7">
                     <div className="header flex w-full justify-between items-center">
                         <div className="flex items-center gap-2 cursor-pointer">
                             <Image width='96' height='96' className="w-[30px] h-[30px] rounded-full" src='/images/profilepic.webp' alt="profile-pic" />
@@ -18,14 +18,14 @@ const Comments = () => {
                     </div>
                     <p className="opacity-85 text-sm py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, doloribus!</p>
                     <div className="btns flex items-center gap-5">
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer rounded-full"><FaRegHeart className="hover:text-pink-500 transition-all duration-500" size={15} /> <span>Like</span> </button>
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><FiCornerDownLeft size={15} /> <span>10 replies</span></button>
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><PiShareFatLight size={15} /> <span>Share</span></button>
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><TbMessageReport size={15} /> <span>Report</span></button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer rounded-full"><FaRegHeart className="hover:text-pink-500 transition-all duration-500" size={15} /> <span className="max-sm:hidden">Like</span> </button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><FiCornerDownLeft size={15} /> <span className="max-sm:hidden">10 replies</span></button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><PiShareFatLight size={15} /> <span className="max-sm:hidden">Share</span></button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><TbMessageReport size={15} /> <span className="max-sm:hidden">Report</span></button>
                     </div>
                 </div>
 
-                <div className="comment w-[85%] px-7">
+                <div className="comment sm:w-[85%] px-3 sm:px-7">
                     <div className="header flex w-full justify-between items-center">
                         <div className="flex items-center gap-2 cursor-pointer">
                             <Image width='96' height='96' className="w-[30px] h-[30px] rounded-full" src='/images/profilepic.webp' alt="profile-pic" />
@@ -35,10 +35,10 @@ const Comments = () => {
                     </div>
                     <p className="opacity-85 text-sm py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, doloribus!</p>
                     <div className="btns flex items-center gap-5">
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer rounded-full"><FaRegHeart className="hover:text-pink-500 transition-all duration-500" size={15} /> <span>Like</span> </button>
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><FiCornerDownLeft size={15} /> <span>10 replies</span></button>
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><PiShareFatLight size={15} /> <span>Share</span></button>
-                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><TbMessageReport size={15} /> <span>Report</span></button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer rounded-full"><FaRegHeart className="hover:text-pink-500 transition-all duration-500" size={15} /> <span className="max-sm:hidden">Like</span> </button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><FiCornerDownLeft size={15} /> <span className="max-sm:hidden">10 replies</span></button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><PiShareFatLight size={15} /> <span className="max-sm:hidden">Share</span></button>
+                        <button className="flex items-center gap-1 w-fit text-xs transition-all duration-500 cursor-pointer  rounded-full"><TbMessageReport size={15} /> <span className="max-sm:hidden">Report</span></button>
                     </div>
                 </div>
 

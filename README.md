@@ -17,3 +17,7 @@ I have included a Navbar with notification icon that shows notifications 2 butto
 ```
 I tried fitting everything in without making it very cluttered. Simple and clean was my goal and I think I achieved that based on the given assignment.
 ```
+
+```
+The responsiveness is not 100% complete due to lack of time. I did as best as possible to make it responsive across all screen sizes in the best possible way.
+```

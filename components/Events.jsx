@@ -43,8 +43,8 @@ const Events = () => {
     },
   ]
   return (
-    <div className='events w-[20%] py-3 flex flex-col items-center gap-3 sticky top-0'>
-      <div className="events-box bg-[#053750] px-4 py-3 rounded-lg flex flex-col w-[95%] h-auto">
+    <div className='events lg:w-[20%] py-3 hidden lg:flex flex-col items-center gap-3 sticky top-0'>
+      <div className="events-box bg-[#053750] px-4 py-3 rounded-lg hidden lg:flex flex-col w-[95%] h-auto">
         <h3 className="opacity-75 text-sm pb-3">UPCOMING EVENTS!</h3>
 
         <ul className='flex flex-col text-xs gap-3 list-disc px-3'>
